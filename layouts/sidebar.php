@@ -22,11 +22,9 @@
         </li>
       <?php } ?>
 
-        <?php if($u_level == 1){ ?>
         <li class="<?php if($pg_name=='monitoring.php'){echo('active');} ?>" >
           <a href="monitoring.php" ><img src="assets/img/icons/eye.svg" alt="img"><span>Monitoring</span> </a>
         </li>
-      <?php } ?>
         <?php if($u_level == 1 || $u_level == 5 || $u_level == 4){ ?>
         <li class="<?php if($pg_name=='add_orders.php'){echo('active');} ?>" >
           <a href="add_orders.php" ><img src="assets/img/icons/plus11.svg" alt="img"><span>Add Order</span> </a>
